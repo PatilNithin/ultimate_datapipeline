@@ -6,6 +6,7 @@ The idea is to create 4 data pipelines -
 3. Financial (Banking ) Transactions Pipeline (Fraud Detection Ready)
 4. Medical Insurance data pipeline
 
+------------------------------------------------------------------------------------------
 1. Retail Analytics Pipeline
 
 Use Case : 
