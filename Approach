@@ -1,0 +1,22 @@
+We are going to create an etl pipeline in GCP cloud with gcp services.
+Services are -
+1. Cloud Composer ( Airflow)
+2. Cloud Storage
+3. Big Query
+4. Data Proc (Spark)
+
+           ---------------------------------------------------------------------------------------------------------------------------
+
+Extract:
+
+We are gonna use python to generate some fake data using faker library every day . Data like orders, Customers, Products data and loading this to gcs bucket. 
+We will generate every day about 1000 records for each table and load them into gcs bucket in one go.
+
+Transform:
+
+We will use a pyspark script to get the data from gcs bucket and cache it for further transformations. We are going to implement some quality checks and 
+joining the tables to satisy the usecase and atlast uncache the data.
+
+Load:
+
+Finally load the transformed data into the Big Query Data Warehouse
