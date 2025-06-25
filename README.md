@@ -1,13 +1,16 @@
 # Ultimate_datapipeline
 Creating a ETL data pipeline - Extracting data from different source system to Google Big Query.
-The idea is to create 4 data pipelines -
-1. Retail Analytics Pipeline
-2. IoT Device Telemetry Aggregation
-3. Financial (Banking ) Transactions Pipeline (Fraud Detection Ready)
-4. Medical Insurance data pipeline
+The idea is to create data pipeline and create some dashboards on top of it -
+Retail Analytics Pipeline
 
 ------------------------------------------------------------------------------------------
 1. Retail Analytics Pipeline
 
 Use Case : 
-Let's say there is a online retail company like Amazon . They want to devide their customers into Platinum,Dimond,Gold, Silver,Normal customers based on the customer monthly activity - on attributes like money_spent ,no_of_orders ,time_spent ....,
+1. Let's say there is a online retail company like Amazon . They want to devide their customers into Platinum,Dimond,Gold, Silver,Normal customers based on the customer monthly activity - on attributes like money_spent ,no_of_orders ,time_spent ....,
+
+2. Creating dashboards with the help of looker like
+   1. progression of daily active users
+   2. progression of product sales...
+
+
