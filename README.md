@@ -2,6 +2,7 @@
 Creating a ETL data pipeline - Extracting data from different source system to Google Big Query.
 The idea is to create data pipeline and create some dashboards on top of it -
 Retail Analytics Pipeline
+<br>
 Author - Nithin
 ------------------------------------------------------------------------------------------
 1. Retail Analytics Pipeline
